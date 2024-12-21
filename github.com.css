@@ -1,0 +1,3 @@
+.feed-right-sidebar, .feed-left-sidebar, footer{
+  display: none !important;
+}

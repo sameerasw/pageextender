@@ -1,0 +1,18 @@
+hr.w-100.my-sm.border-neutral-border-weak {
+  display: none;
+}
+
+div.visible.py-md.grow.flex.flex-col.justify-end {
+  display: none;
+}
+
+vds-media-sync
+  > vds-media-visibility
+  > vds-media
+  > div.media-controls.h-full.w-full.text-white.absolute.inset-0.pointer-events-none
+  > div
+  > div.control-bar.px-2xs.flex
+  > div.disappearing-controls.flex.items-center.w-full.opacity-100.visible.ease.duration-300
+  > span:nth-child(6) {
+  display: none !important;
+}
